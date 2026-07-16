@@ -15,7 +15,7 @@ jobs:
   Build:
     uses: ./.github/workflows/Build.yml
     with:
-      inno: true
+      inno: false
       sign: ${{ inputs.sign }}
 
   Release:
